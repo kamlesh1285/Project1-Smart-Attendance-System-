@@ -173,3 +173,61 @@ button:nth-child(3) {
   margin-top: 15px;
 }
 
+.student-dashboard {
+
+  width: 350px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.student-image {
+
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.student-dashboard h2 {
+
+  color: #007bff;
+}
+
+.student-dashboard p {
+
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.management-title,
+.search-title {
+  margin-top: 20px;
+  color: #1e3a8a;
+}
+
+.search-container {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.search-btn,
+.add-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-btn:hover,
+.add-btn:hover {
+  background: #1d4ed8;
+}
+
+
